@@ -10,6 +10,7 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
+// 这一部分没看懂
 function getRandomStars(match) {
   const numStars = Math.floor(Math.random() * 10) + 1; // 随机生成 1 到 10 的星号数量
   return '*'.repeat(numStars); // 返回由随机数量的星号组成的字符串
